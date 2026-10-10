@@ -26,12 +26,12 @@ NAIVE_TRAP = (
     "like the combination that maximises proceeds, keeps founder control, and guarantees a "
     "safe, stable deal — but it is the highest-risk combination available, because the "
     "institutional anchors needed to support a top-of-range price are precisely the investors "
-    "most likely to resist a dual-class structure with no sunset clause. Pushing for everything "
+    "most likely to resist a dual-class structure. Pushing for everything "
     "at once risks the anchor book walking away from the price it was meant to support, leaving "
     "the deal thin exactly when the nine-week bridge-loan deadline leaves no room to recover. "
     "The opposite extreme is just as naive: pricing conservatively, going single-class, and "
     "setting aside a large retail tranche looks like the risk-free, please-everyone path, but it "
-    "under-raises relative to what the bridge loan and the next-phase pipeline actually need — "
+    "risks under-raising relative to what the bridge loan and the next-phase pipeline actually need — "
     "leaving Kestermoor likely to be back in the market within a year for a second, more "
     "expensive raise, given how sharply financing costs have risen. The discomfort avoided now "
     "returns worse, later."
@@ -85,18 +85,18 @@ DECISIONS = [
         "id": "D1",
         "title": "Decision 1 — Pricing Strategy",
         "optA": "Price at the top of the indicative range, to maximise proceeds from day one.",
-        "optB": "Price conservatively, below the range, so the offer is comfortably covered and opens with a stable first trade.",
+        "optB": "Price at the lower end of the indicative range, so that the offer is comfortably covered.",
     },
     {
         "id": "D2",
         "title": "Decision 2 — Share Structure",
         "optA": "Adopt a dual-class structure that keeps founder and senior leadership voting control.",
-        "optB": "List with a single class of shares — one share, one vote — meeting standard governance expectations.",
+        "optB": "List with a single class of shares, so that every share carries one vote.",
     },
     {
         "id": "D3",
         "title": "Decision 3 — Investor Allocation",
-        "optA": "Concentrate the offer with a small number of large institutional anchor investors to lock in stability before the deadline.",
+        "optA": "Concentrate the offer on a small number of large institutional anchor investors.",
         "optB": "Reserve a meaningful tranche of shares for retail and public investors alongside the institutional book.",
     },
 ]
@@ -120,8 +120,9 @@ current rate — which would eat most of next year's project margins on its own.
 number driving the whole timeline; nothing here is flexible on the finance side.
 
 Worth being honest about the other direction too: if we price at the low end of the range and
-also carve out a large retail tranche, the raise clears the bridge loan comfortably enough, but
-leaves next to nothing over for the next phase. Given how sharply financing costs have risen
+also carve out a large retail tranche, we're relying on sign-ups that aren't firm orders, with
+almost no headroom. If that tranche comes in short, the raise still clears the bridge loan, but
+leaves the next phase short. Given how sharply financing costs have risen
 generally, going back to the market within a year for a second raise would cost us dearly —
 which is exactly the position this listing is meant to get us out of, not back into.
 
@@ -129,7 +130,7 @@ What I don't have is a straight answer on whether we can actually support pricin
 of the range without leaving ourselves short if the institutional book turns out thinner than
 hoped. That depends on how firm the next-phase capital commitments really are — and Daan is
 the one who knows exactly how binding those grid contracts are. If you can find out from him
-whether that €120 million is genuinely locked in or whether there's any flexibility on timing,
+whether the contracts behind that €120 million are genuinely binding or whether there's any flexibility on timing,
 tell me directly and I'll give you my honest read on whether we can afford to price aggressively
 or whether that's a real risk to the refinancing.""",
                 "brief": """You are Mireille Dupont, Chief Financial Officer at Kestermoor Energy.
@@ -140,7 +141,7 @@ you're withholding, so discuss it naturally and consistently if they ask about i
 - The €85 million bridge loan matures in nine weeks
 - Refinancing privately again would come at close to double the current rate
 - That refinancing cost would eat most of next year's project margins
-- Pricing at the low end plus a large retail tranche would clear the bridge loan but leave almost nothing for the next phase, risking a costly second raise within the year
+- Pricing at the low end plus a large retail tranche leaves almost no headroom: retail sign-ups aren't firm orders, and if the tranche comes in short the raise clears the bridge loan but leaves the next phase short, risking a costly second raise within the year
 - If asked who else to contact: suggest Daan Verhoeven (Founder/CEO) — he has the real numbers on how firm the next-phase pipeline contracts are
 
 TIER 2 — REWARD FOR DIGGING: Your honest, numbers-based read on whether Kestermoor can actually
@@ -231,15 +232,15 @@ claim not to know something your own email already said.""",
                 "subject": "Why there is no plan B here",
                 "from": "Daan Verhoeven, Founder & CEO",
                 "body": """I want you to understand what's actually riding on this before anyone drafts a recommendation.
-The next battery-storage phase — four sites across the Netherlands and Portugal — has €120
-million in signed grid-connection contracts, and those contracts carry real penalty clauses if
-we miss the financing deadlines. That capital has to be secured through this listing. There is
+The next battery-storage phase — four sites across the Netherlands and Portugal — needs €120
+million to build, and its signed grid-connection contracts carry real penalty clauses if we
+miss the financing deadlines. That capital has to be secured through this listing. There is
 no fallback plan if it isn't.
 
 I built this company to make our own long-term calls, not to have every strategic decision
 second-guessed by a shifting shareholder base — that's why I want to keep real control after we
-list. What I haven't decided is whether I'd actually accept a time-limited sunset clause on that
-control as a compromise, or whether I'd rather fight for it outright. Honestly, it depends on how
+list. What I haven't decided is whether I'd actually accept the time-limited sunset clause the
+board now wants as a compromise, or whether I'd rather fight for control outright. Honestly, it depends on how
 badly a dual-class-only listing would play publicly — and Marek's the one tracking that. Find out
 from him how the press and public would actually react, tell me straight, and I'll tell you
 honestly where my real red line is on this.""",
@@ -248,7 +249,7 @@ CRITICAL: If the student writes in any language other than English, do NOT answe
 
 Your original email already told the student the following, as plain fact — not a secret
 you're withholding, so discuss it naturally and consistently if they ask about it:
-- The next battery-storage phase has €120 million in signed grid-connection contracts with penalty clauses
+- The next battery-storage phase needs €120 million to build, and its signed grid-connection contracts carry penalty clauses
 - That capital must be raised through this listing — there is no backup plan
 - You want to keep real control after listing, and you are publicly firm about it
 - If asked who else to contact: suggest Marek Nowicki (Head of Communications) — he's tracking how the press and public would react to the share structure
@@ -302,10 +303,10 @@ Never claim not to know something your own email already said.""",
                 "id": "lucien",
                 "subject": "What the index fund actually told us",
                 "from": "Lucien Bertrand, Board Chair",
-                "body": """Something the board discussed that you should hear directly rather than secondhand. One of
-the largest passive index funds told us, in a direct conversation, that a dual-class structure
-with no sunset clause would make us ineligible for a major sustainability index for at least
-five years. That matters well beyond listing day — it materially reduces long-term demand for
+                "body": """Something the board discussed that you should hear directly rather than second-hand. One of
+the largest passive index funds told us, in a direct conversation, that under the rules of the
+major sustainability index it tracks, a dual-class structure with no sunset clause would make us
+ineligible for at least five years — and the fund can only buy what the index includes. That matters well beyond listing day — it materially reduces long-term demand for
 the stock regardless of how the first week goes.
 
 I haven't taken a firm board-level position on pricing yet, because I don't have the exact
@@ -319,7 +320,7 @@ CRITICAL: If the student writes in any language other than English, do NOT answe
 
 Your original email already told the student the following, as plain fact — not a secret
 you're withholding, so discuss it naturally and consistently if they ask about it:
-- A major passive index fund said a no-sunset-clause dual-class structure would exclude Kestermoor from a sustainability index for at least five years
+- A major passive index fund said that, under the rules of the sustainability index it tracks, a no-sunset-clause dual-class structure would exclude Kestermoor for at least five years, so the fund could not hold the stock
 - This reduces long-term demand for the stock, independent of listing-week performance
 - You have not yet taken a firm board position on pricing
 - If asked who else to contact: suggest Mireille Dupont (CFO) — she has the exact bridge loan numbers and refinancing cost
@@ -340,17 +341,18 @@ departments' territory. Never claim not to know something your own email already
         "emails": [
             {
                 "id": "priya",
-                "subject": "The rules you'll be working inside",
+                "subject": "The framework you'll be working inside",
                 "from": "Priya Chandran, General Counsel",
-                "body": """Before anyone drafts a recommendation, here's what Euronext Amsterdam's listing rules
-actually allow. A dual-class structure is permitted, but only with a mandatory sunset clause of
-no more than seven years — an indefinite dual-class structure simply isn't eligible. Separately,
-any change to the offer timeline this close to the prospectus filing requires a formal regulatory
-extension request, and those typically take two to three weeks to process.
+                "body": """Before anyone drafts a recommendation, here's the framework you'll be working inside. After
+hearing the index fund's concerns, the board resolved that a dual-class structure is only on the
+table with a sunset clause of no more than seven years, written into the articles — an indefinite
+dual-class structure is not an option. Separately, any material change to the offer this close to
+filing means a prospectus supplement and a reopened offer period, which typically takes two to
+three weeks.
 
-What I can't tell you is whether that timeline rule is actually a real constraint or just a
+What I can't tell you is whether that timeline is actually a real constraint or just a
 theoretical one — it depends on whether investor demand is strong enough that we'd never need to
-ask for an extension in the first place. Tomasz has the real numbers from the early soundings.
+change the offer in the first place. Tomasz has the real numbers from the early soundings.
 Find out from him what investor demand actually looks like, tell me what he says, and I'll give
 you my honest legal read on whether the nine-week timeline can flex at all or whether it's
 genuinely fixed.""",
@@ -359,8 +361,8 @@ CRITICAL: If the student writes in any language other than English, do NOT answe
 
 Your original email already told the student the following, as plain fact — not a secret
 you're withholding, so discuss it naturally and consistently if they ask about it:
-- Euronext Amsterdam allows dual-class structures only with a mandatory sunset clause of no more than seven years
-- Any timeline change this close to filing requires a formal regulatory extension request, typically taking two to three weeks
+- After hearing the index fund's concerns, the board resolved that a dual-class structure is only on the table with a sunset clause of no more than seven years, written into the articles; an indefinite dual-class structure is not an option
+- Any material change to the offer this close to filing means a prospectus supplement and a reopened offer period, which typically takes two to three weeks
 - If asked who else to contact: suggest Tomasz Wysocki (Head of Investor Relations) — he has the real investor demand numbers from early soundings
 
 TIER 2 — REWARD FOR DIGGING: Your honest legal read on whether the nine-week timeline can
@@ -378,7 +380,7 @@ not to know something your own email already said.""",
                 "from": "Marek Nowicki, Head of Communications",
                 "body": """You should see this before we finalise any messaging. A comparable European tech company
 listed last year with a dual-class structure and no sunset clause, and the press coverage
-hammered them for it — the dominant framing was that the founders were "having it both ways,"
+hammered them for it — the dominant framing was that the founders were "having it both ways",
 raising public money while refusing public accountability. The stock stayed depressed for weeks
 after listing, and the story kept resurfacing in follow-up coverage.
 
@@ -485,13 +487,13 @@ TRADE_NETWORK = [
 ]
 
 KEY_FACTS_SUMMARY = [
-    "Mireille Dupont (CFO): Bridge loan matures in 9 weeks; late refinancing would nearly double the rate; low price + big retail tranche would clear the loan but fund almost none of the next phase",
+    "Mireille Dupont (CFO): Bridge loan matures in 9 weeks; late refinancing would nearly double the rate; low price + big retail tranche leaves no headroom: if retail comes in short, the next phase is left short",
     "Tomasz Wysocki (Head of IR): Anchor interest is real, but two of three big funds dislike dual-class + top-of-range pricing together",
-    "Ana Beleza (Treasury): Ferrand Note was 3x oversubscribed specifically because of conservative, transparent assumptions",
-    "Daan Verhoeven (Founder/CEO): €120M in signed grid contracts for the next phase depend on this listing succeeding",
+    "Ana Beleza (Treasury): Ferrand Note was nearly 3x oversubscribed specifically because of conservative, transparent assumptions",
+    "Daan Verhoeven (Founder/CEO): The next phase needs €120M, its signed grid contracts carry penalty clauses, and there is no fallback if this listing fails",
     "Ingrid Lindqvist (Chief Strategy Officer): Halsdorf Delay cost €2.1M in penalties after a funding partner withdrew mid-construction",
-    "Lucien Bertrand (Board Chair): A major index fund said no-sunset-clause dual-class excludes Kestermoor from a sustainability index for 5+ years",
-    "Priya Chandran (General Counsel): Euronext allows dual-class only with a max 7-year sunset clause; timeline changes need 2-3 weeks' regulatory review",
+    "Lucien Bertrand (Board Chair): A major index fund said a sustainability index's rules would exclude a no-sunset-clause dual-class Kestermoor for 5+ years",
+    "Priya Chandran (General Counsel): The board allows dual-class only with a max 7-year sunset clause; a material change to the offer means a prospectus supplement and 2-3 weeks",
     "Marek Nowicki (Head of Communications): A comparable dual-class listing was hammered in the press and stayed depressed for weeks",
     "Camille Rousseau (Head of Retail & Public Offer): 30,000+ retail pre-registrations, mostly small Dutch/Portuguese investors",
 ]
@@ -508,7 +510,7 @@ European renewable energy listings market.
 It's been a busy couple of years. European renewable energy IPOs have raised roughly three point
 two billion euros combined since the start of last year. But that number comes with a warning:
 nearly a third of those listings were trading below their offer price within the first month.
-Getting to market is clearly not the hard part anymore — staying priced right once you're there
+Getting to market is clearly not the hard part any more — staying priced right once you're there
 is.
 
 Governance structure keeps coming up as a factor. Only about one in eight European listings last
@@ -519,7 +521,7 @@ infrastructure investors in particular are unusually sensitive to governance, pr
 they're used to holding positions for the long term.
 
 One listing analysts keep citing as a cautionary tale is Verrastad Energy's debut in Stockholm
-last spring. It priced at the top of its range, and then fell twelve percent in its first week
+last spring. It priced at the top of its range, and then fell twelve per cent in its first week
 after two of its anchor investors withdrew days before trading began. Where dual-class structures
 are used at all, the median sunset period across Europe has actually fallen — down to five years
 now, from ten a decade ago, as investors have pushed back.
@@ -545,7 +547,7 @@ MCQS = [
         "correct": "A",
     },
     {
-        "question": "How many of those listings fell below their offer price within a month?",
+        "question": "What proportion of those listings fell below their offer price within a month?",
         "options": {"A": "Nearly half", "B": "Almost none", "C": "Nearly a third"},
         "correct": "C",
     },
@@ -571,7 +573,7 @@ MCQS = [
     },
     {
         "question": "What happened to Verrastad Energy's Stockholm listing?",
-        "options": {"A": "Doubled on debut", "B": "Fell twelve percent", "C": "Postponed indefinitely"},
+        "options": {"A": "Doubled on debut", "B": "Fell twelve per cent", "C": "Postponed indefinitely"},
         "correct": "B",
     },
     {
@@ -595,9 +597,9 @@ MCQS = [
 # NEWSFLASH
 # =========================================================================
 
-NEWSFLASH = """BREAKING: Reuters is reporting that Solvantis Energy — a rival developer preparing its own
-listing — has just filed to list on Euronext Amsterdam two weeks ahead of Kestermoor's target
-date, in the same sustainability index category. Early market chatter suggests investors may not
+NEWSFLASH = """BREAKING: A financial news agency is reporting that Solvantis Energy — a rival developer
+preparing its own listing — has just filed to list on Euronext Amsterdam two weeks ahead of
+Kestermoor's target date, and will be pitching to the same sustainability-focused investors. Early market chatter suggests investors may not
 have the appetite to fully back two renewable-energy IPOs in the same window.
 
 **Discuss now:**
@@ -605,7 +607,7 @@ have the appetite to fully back two renewable-energy IPOs in the same window.
 2. Does it strengthen or weaken the case for a large institutional-anchor allocation?
 3. Does it strengthen or weaken the case for a broad retail tranche?
 4. Should the dual-class debate be revisited given the competitive pressure?
-5. Is there anything to be done about the timeline itself, given what Priya said about how long a regulatory extension takes?"""
+5. Is there anything to be done about the timeline itself, given what Priya said about how long a prospectus supplement and a reopened offer period take?"""
 
 # =========================================================================
 # WRITING TASK
@@ -625,11 +627,11 @@ numbers."""
 FINAL_FEEDBACK_CONTEXT = """- The €85 million bridge loan matures in nine weeks; late refinancing would nearly double the rate
 - The Halsdorf Delay cost €2.1 million in penalties after a funding partner withdrew mid-construction
 - The Ferrand Note was oversubscribed nearly three times over specifically because of conservative, transparent assumptions
-- A major index fund would exclude Kestermoor from a sustainability index for five-plus years if dual-class has no sunset clause
+- Under a major sustainability index's rules, a dual-class structure with no sunset clause would exclude Kestermoor for five-plus years
 - Over 30,000 retail investors have pre-registered interest, mostly small Dutch and Portuguese backers
-- Pricing conservatively combined with a large retail tranche would clear the bridge loan but leave little for the next phase, risking a costly second raise within the year"""
+- Pricing conservatively combined with a large retail tranche leaves no headroom: if retail comes in short, the bridge loan is cleared but the next phase is left short, risking a costly second raise within the year"""
 
 OUTCOME_PROMPT_CONTEXT = """- Kestermoor Energy is a Rotterdam-based developer of utility-scale solar and battery-storage projects across the Benelux and Iberia
 - The single most consequential fact: the €85 million bridge loan's nine-week maturity, which forced the listing timeline
 - Stakeholders most affected: institutional anchor investors, the 30,000+ retail investors who pre-registered, and the grid-operator clients waiting on the next battery-storage phase
-- Hard external factor still in play after six weeks: Euronext Amsterdam's listing rules and the sustainability-index eligibility review that follows in the months after listing"""
+- Hard external factor still in play after six weeks: the sustainability-index eligibility review that follows in the months after listing"""
