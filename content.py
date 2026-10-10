@@ -523,20 +523,20 @@ they're used to holding positions for the long term.
 One listing analysts keep citing as a cautionary tale is Verrastad Energy's debut in Stockholm
 last spring. It priced at the top of its range, and then fell twelve per cent in its first week
 after two of its anchor investors withdrew days before trading began. Where dual-class structures
-are used at all, the median sunset period across Europe has actually fallen — down to five years
-now, from ten a decade ago, as investors have pushed back.
+are used at all, more of them now come with a sunset clause, typically set at between five and
+ten years, as investors have pushed back.
 
-On the retail side, participation in European IPOs has roughly doubled since new rules made it
-easier for smaller investors to access primary offerings directly through their banking apps.
-And in the background, financing costs for infrastructure debt have risen sharply over the past
-two years, which is exactly why bridge loans that once looked manageable are now far more
-expensive to refinance than they used to be.
+On the retail side, smaller investors are finding it easier to take part in new listings, as
+more banks and investment apps let them subscribe directly from their phones.
+And in the background, financing costs for infrastructure debt are still well above where they
+were a few years ago, even after recent rate cuts, which is exactly why bridge loans that once
+looked manageable are now far more expensive to refinance than they used to be.
 
-One more thing worth knowing if you're timing a listing: autumn is traditionally the busiest
-window for new European issuance, before year-end volatility usually makes January a quieter
-month. And one final trend to watch — index funds tracking sustainability benchmarks are now
-one of the fastest-growing pools of capital in Europe, but most of them exclude companies with
-non-standard voting structures from eligibility altogether.
+One more thing worth knowing if you're timing a listing: new European issuance tends to cluster
+in a spring window and an autumn window, while the weeks around the new year are usually quiet,
+partly because investors prefer to wait for full-year results. And one final trend to watch —
+funds tracking sustainability benchmarks are a large pool of long-term capital in Europe, and some
+index providers limit or exclude companies that don't give one vote per share.
 
 This is The Exchange Briefing. Thank you for listening."""
 
@@ -562,13 +562,13 @@ MCQS = [
         "correct": "B",
     },
     {
-        "question": "What has happened to retail participation in European IPOs?",
-        "options": {"A": "Stayed about flat", "B": "Roughly doubled", "C": "Fallen sharply"},
+        "question": "What does the podcast say about smaller investors and new listings?",
+        "options": {"A": "New rules now keep them out", "B": "Taking part is getting easier", "C": "They have mostly lost interest"},
         "correct": "B",
     },
     {
-        "question": "What has happened to infrastructure financing costs recently?",
-        "options": {"A": "Fallen steadily", "B": "Stayed the same", "C": "Risen sharply"},
+        "question": "How do infrastructure financing costs compare with a few years ago?",
+        "options": {"A": "Lower than ever", "B": "Back to the same level", "C": "Still well above them"},
         "correct": "C",
     },
     {
@@ -577,18 +577,18 @@ MCQS = [
         "correct": "B",
     },
     {
-        "question": "What is the median sunset period for European dual-class structures now?",
-        "options": {"A": "Five years", "B": "Ten years", "C": "Twenty years"},
+        "question": "What sunset period is typical for dual-class structures, according to the podcast?",
+        "options": {"A": "Between five and ten years", "B": "Twenty years or even longer", "C": "Less than a single year"},
         "correct": "A",
     },
     {
-        "question": "Which season is traditionally busiest for European listings?",
-        "options": {"A": "Winter", "B": "Summer", "C": "Autumn"},
+        "question": "When does new European issuance tend to cluster?",
+        "options": {"A": "Around Christmas and the new year", "B": "Only in the middle of summer", "C": "In spring and autumn windows"},
         "correct": "C",
     },
     {
-        "question": "What do most sustainability-index funds exclude?",
-        "options": {"A": "Small-cap companies", "B": "Non-standard voting structures", "C": "Companies outside Europe"},
+        "question": "What do some index providers limit or exclude?",
+        "options": {"A": "Companies below a certain market value", "B": "Companies without one vote per share", "C": "Companies with most of their sites outside Europe"},
         "correct": "B",
     },
 ]
